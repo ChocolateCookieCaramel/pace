@@ -2,33 +2,21 @@
     {
       "id": 1,
       "name": "Ann",
-      "attributes": {
-        "target": "_blank",
-        "href": "https://google.com"
-        }
+      "url": ", interviewed by: <a href=\"//onehungrymind.com/angularjs-dynamic-templates\" target=\"_blank\"><u>Art Blakey</u></a>"
     },
     {
         "id": 2,
         "name": "John",
-        "attributes": {
-          "target": "_blank",
-          "href": "https://google.com"
-          }
+        "url": ", interviewed by: <a href=\"//onehungrymind.com/angularjs-dynamic-templates\" target=\"_blank\"><u>Art Blakey</u></a>"
       },
       {
         "id": 3,
         "name": "Hyun",
-        "attributes": {
-          "target": "_blank",
-          "href": "https://google.com"
-          }
+        "url": "Sincere@april.biz"
       },
       {
         "id": 4,
         "name": "Pratt",
-        "attributes": {
-          "target": "_blank",
-          "href": "https://google.com"
-          }
+        "url": "Sincere@april.biz"
       }
   ]
