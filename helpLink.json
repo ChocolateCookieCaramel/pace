@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Ann",
-      "url": ", interviewed by: <a href=\"//onehungrymind.com/angularjs-dynamic-templates\" target=\"_blank\"><u>Art Blakey</u></a>"
+      "url": " <a href=\"//onehungrymind.com/angularjs-dynamic-templates\" target=\"_blank\">Art Blakey</a>"
     },
     {
         "id": 2,
