@@ -2,25 +2,21 @@
     {
       "id": 1,
       "name": "Ann",
-      "username": "Bret",
-      "email": "Sincere@april.biz"
+      "url": "Sincere@april.biz"
     },
     {
         "id": 2,
         "name": "John",
-        "username": "Bret",
-        "email": "Sincere@april.biz"
+        "url": "Sincere@april.biz"
       },
       {
         "id": 3,
         "name": "Hyun",
-        "username": "Bret",
-        "email": "Sincere@april.biz"
+        "url": "Sincere@april.biz"
       },
       {
         "id": 4,
         "name": "Pratt",
-        "username": "Bret",
-        "email": "Sincere@april.biz"
+        "url": "Sincere@april.biz"
       }
   ]
