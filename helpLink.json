@@ -2,21 +2,33 @@
     {
       "id": 1,
       "name": "Ann",
-      "url": "Sincere@april.biz"
+      "attributes": {
+        "target": "_blank",
+        "href": "https://google.com"
+        }
     },
     {
         "id": 2,
         "name": "John",
-        "url": " <a href=\"http://www.google.com\">Google<\/a> "
+        "attributes": {
+          "target": "_blank",
+          "href": "https://google.com"
+          }
       },
       {
         "id": 3,
         "name": "Hyun",
-        "url": "Sincere@april.biz"
+        "attributes": {
+          "target": "_blank",
+          "href": "https://google.com"
+          }
       },
       {
         "id": 4,
         "name": "Pratt",
-        "url": "Sincere@april.biz"
+        "attributes": {
+          "target": "_blank",
+          "href": "https://google.com"
+          }
       }
   ]
