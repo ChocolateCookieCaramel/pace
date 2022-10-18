@@ -7,7 +7,7 @@
     {
         "id": 2,
         "name": "John",
-        "url": " <a href='http://www.google.com'>Google</a> "
+        "url": " <a href=\"http://www.google.com\">Google<\/a> "
       },
       {
         "id": 3,
