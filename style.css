@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+	background-color: black;
+}
+
+#stage {
+	width: 50%;
+	height: 500px;
+	background-image: url('Aravaia_Institute.png');
+	background-color: white;
+	background-size: cover;
+	background-position: center -150px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#text {
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	word-wrap: break-word;
+	user-select: none;
+	font-family: 'Merriweather', serif;
+	color: #002c78;
+	background-color: #eeeeee;
+	cursor: pointer;
+}
+
+#boy {
+	position: absolute;
+	width: 200px;
+	top: 150px;
+}
+
+#girl {
+	position: absolute;
+	right: 0;
+	width: 150px;
+	top: 200px;
+}
