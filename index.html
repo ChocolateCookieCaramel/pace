@@ -9,6 +9,7 @@
 	<link href="style.css" rel="stylesheet" />
 
 	<!-- Story based off: https://responsiblegambling.vic.gov.au/terms-of-use/accessibility/gamblers-help-video-transcripts/bayus-story/
+	click sound from: https://mmcc.mq.edu.au/mmcc3045/sounds.php
 	pub image from: https://www.dreamstime.com/pub-linear-icon-thin-line-illustration-alehouse-beerhouse-contour-symbol-vector-isolated-outline-drawing-pub-linear-icon-image169287956
     school image from: https://www.istockphoto.com/illustrations/school-building-drawing -->
 
@@ -17,6 +18,7 @@
 
 
 			var events_counter = 0;
+			var sound_click = new Audio('click.mp3');
 
 			$('div#text').click(events_handler);
 
@@ -30,6 +32,7 @@
 
 
 				if (events_counter == 1) {
+					sound_click.play();
 					var imageUrl = "school.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$('#text').text('Stephine: Hey Ben')
@@ -38,6 +41,7 @@
 				}
 
 				if (events_counter == 2) {
+					sound_click.play();
 					$("#girl").show();
 					$('#girl').animate({ left: 150 }, { duration: 300 })
 
@@ -46,16 +50,19 @@
 				}
 
 				if (events_counter == 3) {
+					sound_click.play();
 					$('div#text').text('Stephine: Do you want to go to the pub after school?')
 					$('div#text').on('click');
 				}
 
 				if (events_counter == 4) {
+					sound_click.play();
 					$('div#text').text('Ben: Okay, sure')
 
 				}
 
 				if (events_counter == 5) {
+					sound_click.play();
 					var imageUrl = "pub1.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$('#girl').animate({ left: 370 }, { duration: 300 }).fadeOut()
@@ -64,6 +71,7 @@
 				}
 
 				if (events_counter == 6) {
+					sound_click.play();
 					var imageUrl = "inbar.png";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$('#girl').animate({ left: 100 }, { duration: 300 }).fadeIn()
@@ -72,14 +80,17 @@
 				}
 
 				if (events_counter == 7) {
+					sound_click.play();
 					$('div#text').text('Stephine: yeah, you want to try it?')
 				}
 
 				if (events_counter == 8) {
+					sound_click.play();
 					$('div#text').text('Ben: I guess it looks fun.')
 				}
 
 				if (events_counter == 9) {
+					sound_click.play();
 					$("#boy").hide();
 					$("#girl").hide();
 					var imageUrl = "money.jpg";
@@ -90,14 +101,17 @@
 
 
 				if (events_counter == 10) {
+					sound_click.play();
 					$('div#text').text('Dealer: Okay')
 				}
 
 				if (events_counter == 11) {
+					sound_click.play();
 					$('div#text').html('Ben: <i>and the rest is history... I realized I had an addiction when..</i>')
 				}
 
 				if (events_counter == 12) {
+					sound_click.play();
 					var imageUrl = "park.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$("#boy").show();
@@ -107,10 +121,13 @@
 				}
 
 				if (events_counter == 13) {
+					sound_click.play();
+
 					$('div#text').html('Ben: <i>I always thought it was the Australian culture </i>')
 				}
 
 				if (events_counter == 14) {
+					sound_click.play();
 					$("#girl").hide()
 					var imageUrl = "";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
@@ -118,6 +135,7 @@
 				}
 
 				if (events_counter == 15) {
+					sound_click.play();
 					$("#boy").hide()
 					var imageUrl = "gamble.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
@@ -125,12 +143,14 @@
 				}
 
 				if (events_counter == 16) {
+					sound_click.play();
 					var imageUrl = "broke.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$('div#text').html('Ben: <i> I didnt realize until I could not afford food </i>')
 				}
 
 				if (events_counter == 17) {
+					sound_click.play();
 					var imageUrl = "end.jpg";
 					$("#stage").css("background-image", "url(" + imageUrl + ")");
 					$('div#text').text('It can ruin your life. Prevent the habit.')
@@ -149,6 +169,7 @@
 
 		<div id="text">Press on this text to contiune</div>
 	</div>
+	<audio id="click" src="click.mp3"></audio>
 
 </body>
 
